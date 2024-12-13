@@ -11,39 +11,30 @@
     <main>
       <section class="container">
         <h1>Verify Weather</h1>
-        <label class="containerInputButton" for="nameCity"
-          >Nome da cidade
+        <form class="containerInputButton">
+          <label for="nameCity">Nome da cidade</label>
           <input
-            id="nameCity"
+            id="inputCity"
             type="text"
             placeholder="Digite o nome da sua cidade"
           />
-          <button>Enviar</button>
-        </label>
+          <button id="send">Enviar</button>
+        </form>
         <div class="countryInformations">
-          <p>City Name</p>
-          <img
-            src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg"
-            alt="Imagem do país do local que foi pesquisada"
-          />
+          <p id="nameCity"></p>
+          <img id="countryImage" src="" alt="">
         </div>
-        <h2 id="temperature">30°C</h2>
-        <div>
-          <section>
-            <p></p>
-            <img src="" alt="" />
+        <h2 id="temperature"></h2>
+        <div id="informations">
+          <section id="boxInformationSituation">
+            <p id="textSituation"></p>
           </section>
-          <section>
-            <p></p>
-            <img src="" alt="" />
-          </section>
-          <section>
-            <p></p>
-            <img src="" alt="" />
+          <section id="boxInformationHumidity">
+            <p id="textHumidity"></p>
           </section>
         </div>
       </section>
     </main>
+    <script src="./js/script.js"></script>
   </body>
-  <script src="./js/script.js"></script>
 </html>

@@ -76,9 +76,9 @@ main .container {
 }
 
 .countryInformations p {
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--white);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
 }
 
 .countryInformations img {
@@ -92,3 +92,36 @@ main .container {
   font-weight: 600;
   color: var(--white);
 }
+
+#informations {
+  display: flex;
+  gap: 24px;
+  width: 523px;
+  height: 110px;
+  font-size: 16px;
+  color: var(--white);
+  margin-top: 42px;
+  
+}
+
+#boxInformationHumidity {
+  display: flex;
+  width: 157px;
+  height: 106px;
+  align-items: center;
+  margin-left: 150px;
+
+}
+
+#boxInformationSituation{
+  display: flex;
+  flex-direction: column;
+  width: 157px;
+  height: 106px;
+  align-items: center;
+  gap: 24px;
+}
+
+
+
+

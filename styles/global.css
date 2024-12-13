@@ -25,3 +25,9 @@ body {
 fieldset {
   border: none;
 }
+
+button {
+  cursor: pointer;
+}
+
+
